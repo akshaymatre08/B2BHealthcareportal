@@ -1,0 +1,69 @@
+.card {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 0px !important;
+}
+.caProductContainer {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 16px 15px;
+    height: 216px;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.caImgContainer {
+    padding: 15px 15px;
+}
+
+.caProductName {
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+    height: 42px;
+    margin: 5px 0;
+    line-height: 1.5;
+    height: calc(2em * 1.5);
+    overflow: hidden;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+.caBrandName {
+    font-weight: 400;
+    font-size: 10px;
+    width: 100%;
+    height: 42px;
+    margin: 5px 0;
+    line-height: 1.5;
+    height: calc(2em * 1.5);
+    overflow: hidden;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    text-decoration: none;
+}
+
+.caPriceSection {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.caSellingPrice {
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+}
+
+.caMRP {
+    font-size: 12px;
+    height: 15px;
+    color: #8897a2;
+}
